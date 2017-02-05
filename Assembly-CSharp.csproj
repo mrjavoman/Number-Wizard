@@ -38,15 +38,23 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
+<<<<<<< HEAD
       <HintPath>C:/Program Files/Unity Hololens 5.4.0b18-HTP/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>C:/Program Files/Unity Hololens 5.4.0b18-HTP/Editor/Data/Managed/UnityEditor.dll</HintPath>
+=======
+      <HintPath>C:/Program Files/Unity HoloLens 5.4.0b24-HTP/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity HoloLens 5.4.0b24-HTP/Editor/Data/Managed/UnityEditor.dll</HintPath>
+>>>>>>> 6bdca003c8ff2a087a3d3d755bd34e4c7f76637b
     </Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\NumberWizard.cs" />
  <Reference Include="UnityEngine.UI">
+<<<<<<< HEAD
  <HintPath>C:/Program Files/Unity Hololens 5.4.0b18-HTP/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
@@ -54,6 +62,21 @@
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Program Files/Unity Hololens 5.4.0b18-HTP/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+=======
+ <HintPath>C:/Program Files/Unity HoloLens 5.4.0b24-HTP/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity HoloLens 5.4.0b24-HTP/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity HoloLens 5.4.0b24-HTP/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity HoloLens 5.4.0b24-HTP/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity HoloLens 5.4.0b24-HTP/Editor/Data/UnityExtensions/Unity/UnityVR/Runtime/UnityEngine.VR.dll</HintPath>
+>>>>>>> 6bdca003c8ff2a087a3d3d755bd34e4c7f76637b
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
